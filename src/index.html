@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+  <head>
+    <title>TODO supply a title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script lang="javascript" src="camelCase.js" ></script>
+    <script lang="javascript" src="removeOther.js" ></script>
+    <script lang="javascript" src="lcm.js" ></script>
+    <script lang="javascript" src="vowelShifter.js" ></script>
+    <script lang="javascript" src="tribonacci.js" ></script>
+    <script lang="javascript" src="weirdString.js" ></script>
+    <script lang="javascript" src="lastDigit.js" ></script>
+  </head>
+  <body>
+    <script lang="javascript">
+      toCamelCase("nathan is awesome"); //nathanIsAwesome
+      toCamelCase("this is a test"); //thisIsATest
+      toCamelCase("hi"); //hi
+      toCamelCase("should return the correct value for a single word");
+      toCamelCase("the-stealth-warrior");
+      toCamelCase("The-stealth-warrior");
+      removeEveryOther([0,1,2,3,4,5,6,7,8,9,10]);
+      lcm([50, 65, 42, 63, -58, 12, 58, 92, 56, 71, 50]);
+      lcm([8,12]);
+      //vowelShift(prompt("type some thing"),parseInt(prompt("how many spaces right do you want to move each vowel(put negative values for left)")));
+      tribonacci([1,1,1],10);
+      toWeirdCase("nathan is awesome");
+      toWeirdCase("this is a test");
+      toWeirdCase("hi");
+      toWeirdCase("should return the correct value for a single word");
+      lastDigit("23523522","13434");
+    </script>
+  </body>
+</html>
